@@ -31,4 +31,4 @@ COPY --from=builder /go/src/github.com/jonas747/yagpdb/cmd/yagpdb/static static/
 COPY --from=builder /go/bin/yagpdb .
 
 # `exec` allows us to receive shutdown signals.
-CMD exec /app/yagpdb -all -pa -exthttps=$EXTHTTPS -https=$HTTPS
+CMD exec /app/yagpdb -all -pa -exthttps=false -https=true
