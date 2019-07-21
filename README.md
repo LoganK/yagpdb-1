@@ -8,7 +8,7 @@ The go-to choice for a discord bot
 
 ## Quick start
 
-[Getting started](https://docs.yagpdb.xyz/others/self-hosting-with-docker) *(Skipping build steps)*
+[Getting started](https://docs.yagpdb.xyz/development/self-hosting-with-docker) *(Skipping build steps)*
 
 [docker-compose.yml](https://github.com/jonas747/yagpdb/blob/master/yagpdb_docker/docker-compose.yml)
 
